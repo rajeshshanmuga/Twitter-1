@@ -10,7 +10,7 @@ access_token<-'********************'
 access_seceret<-'*********************'
 
 setup_twitter_oauth(consumer_key,consumer_seceret,access_token,access_seceret)
-cred<-OAuthFactory$new(consumerKey='JN2Ax1netJVkZlmOdxNjuDv6U', consumerSecret='Ck80Dyt4pznsbRQ7KN4jcva0fsm51MDcQmx3nepWoMxkstqBSj',requestURL='https://api.twitter.com/oauth/request_token',accessURL='https://api.twitter.com/oauth/access_token',authURL='https://api.twitter.com/oauth/authorize')
+cred<-OAuthFactory$new(consumerKey='**********', consumerSecret='*************************',requestURL='https://api.twitter.com/oauth/request_token',accessURL='https://api.twitter.com/oauth/access_token',authURL='https://api.twitter.com/oauth/authorize')
 cred$handshake(cainfo="cacert.pem")
                
 #extracting tweets
